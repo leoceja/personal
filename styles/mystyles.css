@@ -1,0 +1,134 @@
+.indexBG{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/background_seamless.jpg");
+}
+
+.aboutmeBG{
+    background-image: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/aboutmeBG.jpg");
+}
+
+.myintro {
+    position: relative;
+  }
+  @media (min-width: 992px) {
+    .myintro .intro-img {
+      width: 69%;
+      float: left;
+    }
+    .myintro .intro-text {
+      right: 0;
+      width: 60%;
+      margin-top: 3rem;
+      position: absolute;
+    }
+    .myintro .intro-text .intro-button {
+      width: 100%;
+      left: 0;
+      position: absolute;
+      bottom: -2rem;
+    }
+  }
+  @media (min-width: 1200px) {
+    .myintro .intro-text {
+      width: 45%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .product-item .product-item-title {
+      position: relative;
+      z-index: 1;
+      margin-bottom: -3rem;
+    }
+    .product-item .product-item-img {
+      position: relative;
+      z-index: 0;
+      max-width: 60vw;
+    }
+    .product-item .product-item-description {
+      position: relative;
+      z-index: 1;
+      margin-top: -3rem;
+      max-width: 50vw;
+    }
+  }
+
+  #mymainNav {
+    background-color: rgba(129, 29, 29, 0.9);
+    font-family: "Raleway", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  }
+  #mymainNav .navbar-brand {
+    color: #e6a756;
+  }
+  #mymainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+  }
+  #mymainNav .navbar-nav .nav-item.active .nav-link {
+    color: #e6a756;
+  }
+  @media (min-width: 992px) {
+    #mymainNav .navbar-nav .nav-item .nav-link {
+      font-size: 0.9rem;
+    }
+    #mymainNav .navbar-nav .nav-item .nav-link:hover {
+      color: rgba(255, 255, 255, 0.4);
+    }
+    #mymainNav .navbar-nav .nav-item.active .nav-link:hover {
+      color: #e6a756;
+    }
+  }
+
+  .mymb-3 {
+    margin-bottom: 1rem !important;
+  }
+
+  .mymb-lg-0 {
+    margin-top: -80px !important;
+  }
+
+.OSlogo{
+  width: 50%;
+  left: auto;
+  right: auto;
+  margin:  1.5rem;;
+}
+
+  .myhyperlink{
+    font-weight: bold;
+    color: crimson;
+    text-decoration: none;
+  }
+
+  .myhyperlink:hover{
+      text-decoration: underline;
+  }
+
+  .mycta {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    background-color: rgba(230, 167, 86, 0.9);
+  }
+
+  .mycta .mycta-inner {
+    position: relative;
+    padding: 3rem;
+    margin: 0.5rem;
+    margin-top: 1.2rem;
+  }
+
+  .mycta .mycta-inner:before {
+    border-radius: 0.5rem;
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    bottom: -0.5rem;
+    left: -0.5rem;
+    right: -0.5rem;
+    border: 0.25rem solid rgba(255, 255, 255, 0.85);
+    z-index: -1;
+  }
+
+  .noDisc{
+      list-style-type: none;
+  }
+
